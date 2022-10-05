@@ -1,10 +1,6 @@
 const { Sequelize, DataTypes, Op } = require('sequelize')
 
-const {DB_NAME, 
-  DB_USERNAME, 
-  DB_PASSWORD, 
-  DB_HOST, 
-  DB_PORT,
+const {
   DATABASE_URL
   } = process.env
 
